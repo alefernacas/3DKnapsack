@@ -8,8 +8,8 @@ Este repositorio contiene la implementación de soluciones al problema de Knapsa
 ## Descripción
 
 El problema consiste en optimizar la disposición de cajas dentro de un contenedor tridimensional para maximizar el valor total, respetando restricciones de espacio y peso. Las implementaciones ofrecen dos métodos de solución:
-- **Greedy**: Prioriza cajas basándose en densidad de valor, utilizando un enfoque codicioso.
-- **Branch and Bound**: Encuentra una solución óptima explorando todas las combinaciones posibles, utilizando podas para mejorar la eficiencia.
+- **Greedy**: Prioriza cajas basándose en densidad de valor, utilizando un enfoque codicioso. Este tipo de enfoque nos permite obtener tiempos de ejecución bastante más bajos.
+- **Branch and Bound**: Encuentra una solución óptima explorando todas las combinaciones posibles, utilizando podas para mejorar la eficiencia. El hecho de explorar todas las comnbinaciones posibles implica un mayor tiempo de ejecución.
 
 ## Archivos
 
@@ -34,8 +34,8 @@ This repository contains the implementation of solutions for the three-dimension
 ## Description
 
 The problem involves optimizing the arrangement of boxes within a three-dimensional container to maximize the total value, while respecting space and weight constraints. The implementations provide two solution methods:
-- **Greedy**: Prioritizes boxes based on value density, using a heuristic approach.
-- **Branch and Bound**: Finds an optimal solution by exploring all possible combinations, with pruning for improved efficiency.
+- **Greedy**: Prioritizes boxes based on value density, using a heuristic approach. This type of approach allows us to achieve significantly lower execution times.
+- **Branch and Bound**: Finds an optimal solution by exploring all possible combinations, with pruning for improved efficiency. The fact of exploring all possible combinations implies a higher execution time.
 
 ## Files
 
