@@ -1,7 +1,7 @@
 # 3D Knapsack Problem
 
 ## SPANISH
-Este repositorio contiene la implementación de soluciones al problema de la mochila en tres dimensiones, utilizando dos enfoques principales:
+Este repositorio contiene la implementación de soluciones al problema de Knapsack en tres dimensiones, utilizando dos enfoques principales:
 1. **Algoritmo Greedy**.
 2. **Branch and Bound**.
 
