@@ -1,6 +1,6 @@
 # 3D Knapsack Problem
 
-## SPANISH
+## SPANISH 🇪🇸
 Este repositorio contiene la implementación de soluciones al problema de Knapsack en tres dimensiones, utilizando dos enfoques principales:
 1. **Algoritmo Greedy**.
 2. **Branch and Bound**.
@@ -25,7 +25,7 @@ El problema consiste en optimizar la disposición de cajas dentro de un contened
    git clone https://github.com/tuusuario/3D_Knapsack_Problem.git
    cd 3D_Knapsack_Problem
    
-## ENGLISH
+## ENGLISH 🇬🇧
 
 This repository contains the implementation of solutions for the three-dimensional knapsack problem, using two main approaches:
 1. **Greedy Algorithm**.
