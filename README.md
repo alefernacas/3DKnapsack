@@ -41,7 +41,7 @@ The problem involves optimizing the arrangement of boxes within a three-dimensio
 
 - `greedy_ex.py`: Implementation of the Greedy approach.
 - `branchbound_ex.py`: Implementation of the Branch and Bound approach.
-- `data/`: Optional directory to store predefined configurations or test cases.
+- `data/`: Directory with predefined configurations or test cases.
 - `results/`: Contains generated plots and resulting outputs.
 
 ## Usage
