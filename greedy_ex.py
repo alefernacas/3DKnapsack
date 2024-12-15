@@ -1,3 +1,4 @@
+import time
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d.art3d import Line3DCollection
 from itertools import combinations, product
@@ -112,6 +113,9 @@ class Container:
         plt.show()
 
 def optimize_container(container, boxes):
+    # Comenzamos el contador para saber el tiempo que tarda en encontrar la solución
+    start_time = time.time()
+
     # Ordenar las cajas por peso en orden descendente (más pesadas primero)
     boxes = sorted(boxes, key=lambda box: box.weight, reverse=True)
 
@@ -163,6 +167,11 @@ def optimize_container(container, boxes):
 
     # Calcular el valor total de las cajas colocadas en el contenedor
     total_value = container.calculate_total_value()
+
+    # Detenemos temporizador y presentamos tiempo total de ejecución
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    print(f"Tiempo total de ejecución: {elapsed_time:.2f} segundos")
 
     # Devolvemos el valor total y las cajas que no pudieron colocarse
     return total_value, not_placed_boxes
@@ -228,7 +237,7 @@ boxes = [
 ]
 
 
-container = Container(8, 8, 8)
+container = Container(8, 8, 8) # Definición de las dimensiones del container
 
 # Optimizar la colocación de cajas en el contenedor
 best_value, not_placed = optimize_container(container, boxes)
